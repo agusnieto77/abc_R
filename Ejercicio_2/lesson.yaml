@@ -11,3 +11,4 @@
   CorrectAnswer: barplot(c(1,2,3,4,5))
   AnswerTests: omnitest(correctExpr='barplot(c(1,2,3,4,5))')
   Hint: Escribe barplot(c(1,2,3,4,5)) en la línea de comando.
+  
