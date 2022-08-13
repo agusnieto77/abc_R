@@ -1,0 +1,13 @@
+- Class: meta
+  Course: abc_R
+  Lesson: Ejercicio_2
+  Author: your name goes here
+  Type: Standard
+  Organization: your organization's name goes here
+  Version: 2.4.5
+
+- Class: cmd_question
+  Output: Pasemos ahora a los histogramas. Estos muestran los recuentos de frecuencia para una sola variable. Empecemos con uno fácil. Llama a qplot con 3 argumentos. Primero especifica la variable para la que quieres el recuento de frecuencias, en este caso hwy, luego especifica los datos (establecidos como mpg), y finalmente, la estética, fill, establecida como drv. En lugar de un simple histograma, este usará de nuevo colores para distinguir los 3 diferentes factores de conducción.
+  CorrectAnswer: qplot(hwy, data = mpg, fill = drv)
+  AnswerTests: omnitest(correctExpr='qplot(hwy, data = mpg, fill = drv)')
+  Hint: Escribe qplot(hwy, data = mpg, fill = drv) en la línea de comando.
