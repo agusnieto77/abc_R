@@ -1,9 +1,9 @@
 - Class: meta
   Course: abc_R
   Lesson: Ejercicio_2
-  Author: your name goes here
+  Author: Agustín Nieto
   Type: Standard
-  Organization: your organization's name goes here
+  Organization: INHUS-CONICET/UNMdP
   Version: 2.4.5
 
 - Class: cmd_question
