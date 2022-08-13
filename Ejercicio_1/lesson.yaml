@@ -7,13 +7,19 @@
   Version: 2.4.5
 
 - Class: text
-  Output: ¡Bienvenidx a la primera lección de R!.
+  Output: ¡Bienvenidx a la primera lección de R del Sem-HCACSo!.
+  
+- Class: text_question
+  Output: Escriba 'Hola mundo'
+  CorrectAnswer: 'Hola mundo'
+  AnswerTests: omnitest(correctVal = 'Hola mundo')
+  Hint: Escriba Hola mundo
 
 - Class: cmd_question
   Output: Escriba en consola 4 + 4
   CorrectAnswer: 4 + 4
   AnswerTests: omnitest(correctExpr='4 + 4')
-  Hint: Type 4 + 4
+  Hint: Escriba 4 + 4
 
 - Class: mult_question
   Output: Seleccione el valor de tipo 'character'
